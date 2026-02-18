@@ -59,7 +59,7 @@ class TrafficController
     static void RunMainGreen()
     {
         DisplayState("MAIN GREEN - Straight & Right Turns Allowed",
-                     ConsoleColor.Green, 10);
+                     ConsoleColor.Green, 7);
     }
 
     static void RunLeftTurn()
@@ -77,7 +77,7 @@ class TrafficController
     static void RunAllRed()
     {
         DisplayState("ALL RED - Intersection Clearing",
-                     ConsoleColor.Red, 2);
+                     ConsoleColor.Red, 5);
     }
 
     static void RunPedestrianWalk()
